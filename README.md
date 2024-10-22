@@ -1,6 +1,7 @@
 # Master Thesis Project
 
 This repository contains a deep learning workflow designed for nevre fiber orientation prediction through Computational Scattered Light Imaging data. It consists of an image learning regression task at the pixel-level, leveraging LSTM-CNN models in hybrid configurations, including a GAN approach to input orientations in non-labeled pixels. The repository is structured to handle data preprocessing, dataset creation, model training, evaluation, and results visualization.
+
 This project was conducted in Delft University of Technology (TU Delft) in the Menzel Lab (Imaging Physics Department) under the supervision of Dr. Miriam Menzel (TU Delft) and  Dr. Hélder Oliveira (FCUP) 
 
 ### Segmentation Model:
