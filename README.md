@@ -5,10 +5,10 @@ This repository contains a deep learning framework for predicting unidirectional
 In this study, Long Short-Term Memory (LSTM), Convolutional Neural Networks (CNN) and Generative Adversarial Networks (GAN) models were trained and tested on ComSLI high micro-resolution artificial brain samples. This project involves deep learning regression tasks, utilizing supervised and semi/self-supervised methodologies. It incorporates hybrid configurations of LSTM and CNN models to process image data and integrates a GAN model inspired by the GAIN framework. The project is structured to handle data preprocessing, dataset creation, model training, evaluation, and result visualization. Preprocessing methods, including patch-processing, data augmentation, and noise addition, were critical in producing accurate learning Fiber Orientation Maps (FOMs) and addressing missing or incorrect labeling by Scattered Ligth Imaging Toolbox (SLIX, https://github.com/3d-pli/SLIX#2-run-slix).
 
 
-### Regression Models:
+### Pixel Regression/Semantic Segmentation Models:
 The LSTM-CNN models demonstrated consistent reliability, with the LSTM + 3D U-Net model achieving a total average angular error of approximately 5º. Despite challenges in generalization, the GAN model provided higher resolution FOMs in well-labeled regions- it showed an average angular error of 3º- highlighting its potential with further refinements.
 
-- **LSTM + 2D/3D CNN**: Predicts the labeled pixel orientations in supervised learning, extrapolating labels in the unlabeled pixels.
+- **LSTM + 2D/3D CNN/U-Net**: Predicts the labeled pixel orientations in supervised learning, extrapolating labels in the unlabeled pixels.
 - **GAN (CNN-based)**: Predicts the labeled pixels in supervised learning and inputs orientations non-labeled pixel in a self/semi-supervised learning.
 
 
